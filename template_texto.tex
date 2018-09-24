@@ -17,7 +17,7 @@
 \usepackage[pdftex]{graphicx}									% Enable pdflatex
 \usepackage[svgnames]{xcolor}									% Enabling colors by their 'svgnames'
 \usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption}	% Custom captions under/above floats
-\usepackage{epstopdf}												% Converts .eps to .pdf
+\usepackage{epstopdf}											% Converts .eps to .pdf
 \usepackage{subfig}													% Subfigures
 \usepackage{booktabs}												% Nicer tables
 \usepackage{fix-cm}													% Custom fontsizes
@@ -178,15 +178,16 @@ Descreva aqui o processo utilizado.
 Explique e enumere os papeis (roles) do processo.
 
 \begin{itemize}
-	\item Cliente: Define os requisitos do produto que será utilizado no processo, e o que é importante no produto de software.
-	\item Analista de Software: Levanta requisitos claros e concisos, verificam por conflitos, define o  escopo de sistemas novos e como será as modificações nos sistemas já existentes.
-	\item Desenvolvedor: Responsáveis pela parte técnica do programa, no final de cada atividade as funcionalidades. 
-	\item Gerente de Projetos: Acompanha a execução do projeto. 
+	\item Cliente: Define os requisitos do produto que será produzido pelo processo, o que é importante(prioridades/\textit{"key features"}) no produto de software.
+	\item Analista de Software: Levantar requisitos claros e concisos, verificar por conflitos, define o  escopo de sistemas novos e como será as modificações nos sistemas já existentes.
+	\item Desenvolvedor: Responsável por transformar requisitos e modelos de software em códigos "buildáveis" em determinada linguagem, documentar e descrever cada versão gerada.
+	\item Gerente de Projetos: Acompanha a execução do projeto, resolve conflitos, deve acompanhar e gerar artefatos que sustentem a produção de software seguindo requisitos de priorizando a qualidade.
+	\item Desenvolvedor \textit{tester}(Opcional): São desenvolvedores que produzem testes baseados nos requisitos, ajudam o gerente a gerar métricas de qualidade de software quantitativas e qualitativas.   
 \end{itemize}
 
 \subsection{Atividades}
 Enumere e explique cada uma das atividades, relacione com os papéis.
-\begin{itemize}
+\begin{enumerate}
 	\item \textbf{Levantamento de requisitos}
 	\subitem Artefatos de entrada: Questionário e perguntas dissertativas pré-estabelecidas
 	\subitem Descrição: O analista registra o dialogo com o cliente, faz anotações e usa um questionário padronizado para levantar as funcionalidades juntamente com uma descrição delas e do software final, com o cliente, o analista também tenta perceber se existe conflitos, inviabilidade e/ou impossibilidades nos requisitos descritos até então.
@@ -196,43 +197,43 @@ Enumere e explique cada uma das atividades, relacione com os papéis.
 	\subitem Descrição: Com base no questionário e anotações anteriores o analista e os desenvolvedores analisam os requisitos e tentam quebra-los em tarefas necessárias para entregar essas funcionalidades.
 	\subitem Artefatos de saída: Documento com definição das tarefas
 
-	\item Priorizar tarefas: 
+	\item \textbf{Priorizar tarefas} 
 	\subitem Artefatos de entrada: Documento com definição das tarefas
 	\subitem Descrição: 
 	Após tarefas estabelecidas, cabe ao gerente de projeto definir as prioridades de desenvolvimento.
 	\subitem Artefatos de saída: Documento definindo um grau de prioridade para cada tarefa
 
-	\item Definir tarefas da iteração: 
+	\item \textbf{Definir tarefas da iteração} 
 	\subitem Artefatos de entrada: Documento definindo um grau de prioridade para cada tarefa
 	\subitem Descrição: Com base na prioridade das tarefas, é determinado quais serão executadas de acordo com uma sequência estipulada. 
 	\subitem Artefatos de saída: Documento definindo tarefas que serão feitas por iteração
 	
-	\item Reunião de planejamento: confecção de protótipo
+	\item \textbf{Reunião de planejamento: confecção de protótipo}
 	\subitem Artefatos de entrada: Documento definindo tarefas por interação
 	\subitem Descrição: 
 	A reunião é descrito o que precisa ser feito em cada tarefa e deve ser realizado um protótipo, caso necessário.
 	\subitem Artefatos de saída: Documento de proposta de reunião
 	
-	\item Estimar Tarefas:  
+	\item \textbf{Estimar Tarefas}  
 	\subitem Artefatos de entrada: Base histórica(Quando houver), Documento de tarefas
 	\subitem Descrição: A estimativa das tarefas são estabelecidas de acordo com o tempo em que serão executada (Utilizando base histórica).
 	\subitem Artefatos de saída: 
 	
-	\item Implementação: 
+	\item \textbf{Implementação}
 	\subitem Artefatos de entrada: Documento de requisitos e documento de tarefas da iteração 
 	\subitem Descrição: Nesta fase é o momento em que desenvolvedor elabora o que na atividade estipulado. Cada desenvolvedor precisa escrever um test case para sua tarefa e outro desenvolvedor deve testa-lá. Documentar cada funcionalidade gerada a partir das tarefas entregues.
 	\subitem Artefatos de saída: Linhas de código 
 	
-	\item Apresentar Funcionalidades: 
-	\subitem Artefatos de entrada: Linhas de código e 
+	\item \textbf{Apresentar Funcionalidades} 
+	\subitem Artefatos de entrada: Linhas de código 
 	\subitem Descrição: Em seguida, é feita uma reunião onde serão exibidos os “produtos” gerados pela iteração. 
 	\subitem Artefatos de saída: Build do software e documento descrevendo os requisitos implementados. 
-	
-	\item Retrospectiva: 
-	\subitem Artefatos de entrada:
-	\subitem Descrição: Uma reunião é realizada de modo que apresente os resultados do produto e como foi realizado a sua evolução, focando principalmente em pontos que podem ser melhorados.
-	\subitem Artefatos de saída:
-\end{itemize}
+
+	\item \textbf{Retrospectiva} 
+	\subitem Artefatos de entrada: Check list de qualidade 
+	\subitem Descrição: Uma reunião é realizada de modo que apresente os resultados do produto e como foi realizado a sua evolução, focando principalmente em pontos que podem ser melhorados. Cada reunião deve ser preparada antecipadamente de preferência
+	\subitem Artefatos de saída: Check list preenchido, ata de reunião
+\end{enumerate}
 
 
 \section{Execução do projeto}
@@ -297,15 +298,25 @@ Artefatos gerados em ordem cronológica, conforme processo.
 \end{figure}
 
 
+
+\section{To do}
+\begin{enumerate}
+	
+	\item Questionário genérico do software(Qual funcionalidade? Plataformas? Tipo?)
+
+	\item Documendo de quantidade de erros por funcionalidade, linhas de código por hora Escopo: Plano de Garantia de Qualidade(Quantitativo)
+
+	\item Documento checklist grau de satisfação de necessidades(Qualitativo)
+
+\end{enumerate}
+
 \section{Referências bibliográficas}
-Utilize o mendley, o jabref ou diretamente o bibtex para gerenciar suas referências biliográficas. As referências são criadas automaticamente de acordo com o uso no texto.
-
-Exemplo: Redes de computadores, segundo \cite{t2013} é considerada..... Já \cite{kurose2010} apresenta uma versão...
-
-Analisando os pressupostos de \cite{ref3} e \cite{ref4} concluimos que....
 
 
-\renewcommand\refname{} %%Referências bibliográficas}  
-\bibliographystyle{ieeetr}
+\renewcommand\refname{
+
+} %%Referências bibliográficas}  
+%%\bibliographystyle{ieeetr}
+\bibliographystyle{plain}
 \bibliography{referencias} 
 \end{document}

@@ -2,8 +2,9 @@
 \contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{4}
 \contentsline {section}{\numberline {2}Processo}{4}
 \contentsline {subsection}{\numberline {2.1}Papeis}{4}
-\contentsline {subsection}{\numberline {2.2}Atividades}{4}
+\contentsline {subsection}{\numberline {2.2}Atividades}{5}
 \contentsline {section}{\numberline {3}Execu\IeC {\c c}\IeC {\~a}o do projeto}{6}
 \contentsline {subsection}{\numberline {3.1}Backlog e sprints}{6}
 \contentsline {subsection}{\numberline {3.2}Estado atual}{6}
-\contentsline {section}{\numberline {4}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{6}
+\contentsline {section}{\numberline {4}To do}{13}
+\contentsline {section}{\numberline {5}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{13}
