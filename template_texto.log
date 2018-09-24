@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.14)  24 SEP 2018 13:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.14)  24 SEP 2018 20:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -873,6 +873,14 @@ LaTeX Info: Redefining \today on input line 736.
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count147
+\float@exts=\toks34
+\float@box=\box30
+\@float@everytoks=\toks35
+\@floatcapt=\box31
+)
 
 Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              with a KOMA-Script class is not recommended.
@@ -885,7 +893,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              `\addtokomafont' for the page style elements need
 (scrartcl)              explicite user intervention to work.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 48.
+(scrartcl)              package `fancyhdr' on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
@@ -905,16 +913,16 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
-\c@DefaultLines=\count147
-\c@DefaultDepth=\count148
+\c@DefaultLines=\count148
+\c@DefaultDepth=\count149
 \DefaultFindent=\dimen145
 \DefaultNindent=\dimen146
 \DefaultSlope=\dimen147
 \DiscardVskip=\dimen148
-\L@lbox=\box30
-\L@tbox=\box31
-\c@L@lines=\count149
-\c@L@depth=\count150
+\L@lbox=\box32
+\L@tbox=\box33
+\c@L@lines=\count150
+\c@L@depth=\count151
 \L@Pindent=\dimen149
 \L@Findent=\dimen150
 \L@Nindent=\dimen151
@@ -939,21 +947,21 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 (./template_texto.aux)
 \openout1 = `template_texto.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Info: Redefining \microtypecontext on input line 122.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Info: Redefining \microtypecontext on input line 123.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -970,20 +978,21 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count151
+\scratchcounter=\count152
 \scratchdimen=\dimen161
-\scratchbox=\box32
-\nofMPsegments=\count152
-\nofMParguments=\count153
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count154
+\scratchbox=\box34
+\nofMPsegments=\count153
+\nofMParguments=\count154
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count155
 \MPscratchDim=\dimen162
-\MPnumerator=\count155
-\makeMPintoPDFobject=\count156
-\everyMPtoPDFconversion=\toks35
+\MPnumerator=\count156
+\makeMPintoPDFobject=\count157
+\everyMPtoPDFconversion=\toks37
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
@@ -1022,8 +1031,8 @@ Package caption Info: End \AtBeginDocument code.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 122.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 123.
+(lastpage)             ! on input line 123.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -1039,7 +1048,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 <utfpr.jpeg, id=1, 97.36375pt x 35.13126pt>
 File: utfpr.jpeg Graphic file (type jpg)
 <use utfpr.jpeg>
-Package pdftex.def Info: utfpr.jpeg  used on input line 141.
+Package pdftex.def Info: utfpr.jpeg  used on input line 142.
 (pdftex.def)             Requested size: 97.3635pt x 35.13115pt.
  [1
 
@@ -1051,10 +1060,10 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 149.
+ne 150.
 
-Package tocbasic Info: character protrusion at lof deactivated on input line 14
-9.
+Package tocbasic Info: character protrusion at lof deactivated on input line 15
+0.
 (./template_texto.lof
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1080,10 +1089,10 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 152.
+ne 153.
 
 Package tocbasic Info: character protrusion at lot deactivated on input line 15
-2.
+3.
 (./template_texto.lot)
 \tf@lot=\write4
 \openout4 = `template_texto.lot'.
@@ -1092,13 +1101,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 157.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 155.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 155.
 [2
 
 ]
@@ -1108,10 +1117,10 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 159.
+ne 157.
 
 Package tocbasic Info: character protrusion at toc deactivated on input line 15
-9.
+7.
 (./template_texto.toc)
 \tf@toc=\write5
 \openout5 = `template_texto.toc'.
@@ -1119,44 +1128,71 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15
  [3
 
 ]
+<bpmn.png, id=24, 943.525pt x 577.357pt>
+File: bpmn.png Graphic file (type png)
+<use bpmn.png>
+Package pdftex.def Info: bpmn.png  used on input line 188.
+(pdftex.def)             Requested size: 455.24417pt x 278.573pt.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 181.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 196.
  [4
 
-] [5]
-<requisitos1.png, id=31, 799.98875pt x 916.42375pt>
-File: requisitos1.png Graphic file (type png)
-<use requisitos1.png>
-Package pdftex.def Info: requisitos1.png  used on input line 258.
-(pdftex.def)             Requested size: 455.24417pt x 521.51398pt.
-<requisitos2.png, id=33, 793.96625pt x 742.775pt>
-File: requisitos2.png Graphic file (type png)
-<use requisitos2.png>
-Package pdftex.def Info: requisitos2.png  used on input line 265.
-(pdftex.def)             Requested size: 455.24417pt x 425.90225pt.
-<tarefas1.png, id=34, 797.98125pt x 931.48pt>
-File: tarefas1.png Graphic file (type png)
-<use tarefas1.png>
-Package pdftex.def Info: tarefas1.png  used on input line 272.
-(pdftex.def)             Requested size: 455.24417pt x 531.40395pt.
-<tarefas2.png, id=35, 798.985pt x 1127.21124pt>
-File: tarefas2.png Graphic file (type png)
-<use tarefas2.png>
-Package pdftex.def Info: tarefas2.png  used on input line 279.
-(pdftex.def)             Requested size: 455.24417pt x 642.2591pt.
-<planejamento1.png, id=36, 796.9775pt x 915.42pt>
-File: planejamento1.png Graphic file (type png)
-<use planejamento1.png>
-Package pdftex.def Info: planejamento1.png  used on input line 287.
-(pdftex.def)             Requested size: 455.24417pt x 522.89832pt.
-<planejamento2.png, id=37, 792.9625pt x 915.42pt>
-File: planejamento2.png Graphic file (type png)
-<use planejamento2.png>
-Package pdftex.def Info: planejamento2.png  used on input line 295.
-(pdftex.def)             Requested size: 455.24417pt x 525.55226pt.
- [6] [7 <./requisitos1.png>] [8 <./requisitos2.png>] [9 <./tarefas1.png>] [10 <
-./tarefas2.png>] [11 <./planejamento1.png>]
-[12 <./planejamento2.png>] (./template_texto.bbl
+] [5 <./bpmn.png>] [6]
+Overfull \hbox (11.11102pt too wide) in paragraph at lines 258--270
+[][] 
+ []
+
+<1.png, id=39, 777.90625pt x 1015.795pt>
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 291.
+(pdftex.def)             Requested size: 455.24417pt x 594.47794pt.
+<2.png, id=40, 747.79375pt x 1005.7575pt>
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 298.
+(pdftex.def)             Requested size: 455.24417pt x 612.28346pt.
+<3.png, id=41, 794.97pt x 1126.2075pt>
+File: 3.png Graphic file (type png)
+<use 3.png>
+Package pdftex.def Info: 3.png  used on input line 305.
+(pdftex.def)             Requested size: 455.24417pt x 644.95226pt.
+<4-1.png, id=42, 793.96625pt x 1122.1925pt>
+File: 4-1.png Graphic file (type png)
+<use 4-1.png>
+Package pdftex.def Info: 4-1.png  used on input line 313.
+(pdftex.def)             Requested size: 455.24417pt x 643.45775pt.
+<4-2.png, id=43, 794.97pt x 1126.2075pt>
+File: 4-2.png Graphic file (type png)
+<use 4-2.png>
+Package pdftex.def Info: 4-2.png  used on input line 321.
+(pdftex.def)             Requested size: 455.24417pt x 644.95226pt.
+<4-3.png, id=44, 792.9625pt x 1125.20375pt>
+File: 4-3.png Graphic file (type png)
+<use 4-3.png>
+Package pdftex.def Info: 4-3.png  used on input line 328.
+(pdftex.def)             Requested size: 455.24417pt x 645.99133pt.
+<5.png, id=45, 798.985pt x 1124.2pt>
+File: 5.png Graphic file (type png)
+<use 5.png>
+Package pdftex.def Info: 5.png  used on input line 335.
+(pdftex.def)             Requested size: 455.24417pt x 640.54337pt.
+<6.png, id=46, 790.955pt x 1123.19624pt>
+File: 6.png Graphic file (type png)
+<use 6.png>
+Package pdftex.def Info: 6.png  used on input line 343.
+(pdftex.def)             Requested size: 455.24417pt x 646.46695pt.
+<7.png, id=47, 789.95125pt x 1120.185pt>
+File: 7.png Graphic file (type png)
+<use 7.png>
+Package pdftex.def Info: 7.png  used on input line 352.
+(pdftex.def)             Requested size: 455.24417pt x 645.55424pt.
+<8.png, id=48, 790.955pt x 1120.185pt>
+File: 8.png Graphic file (type png)
+<use 8.png>
+Package pdftex.def Info: 8.png  used on input line 359.
+(pdftex.def)             Requested size: 455.24417pt x 644.73381pt.
+(./template_texto.bbl
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -1165,21 +1201,19 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 1.
 
+[7] [8 <./1.png>] [9 <./2.png>] [10 <./3.png>] [11 <./4-1.png>] [12 <./4-2.png>
+] [13 <./4-3.png>] [14 <./5.png>] [15 <./6.png>] [16 <./7.png>] [17 <./8.png>])
 
-LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 3.
-
-) 
 AED: lastpage setting LastPage
-[13] (./template_texto.aux) ) 
+[18] (./template_texto.aux) ) 
 Here is how much of TeX's memory you used:
- 11624 strings out of 492982
- 184890 string characters out of 6134896
- 506847 words of memory out of 5000000
- 14877 multiletter control sequences out of 15000+600000
- 24989 words of font info for 92 fonts, out of 8000000 for 9000
+ 11719 strings out of 492982
+ 185758 string characters out of 6134896
+ 511219 words of memory out of 5000000
+ 14953 multiletter control sequences out of 15000+600000
+ 25234 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,12n,77p,8825b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,11n,77p,8825b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
 e/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
@@ -1194,10 +1228,10 @@ public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
 /uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on template_texto.pdf (13 pages, 434402 bytes).
+Output written on template_texto.pdf (18 pages, 653078 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 143 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 28708 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 28733 words of extra memory for PDF output out of 29859 (max. 10000000)
 
