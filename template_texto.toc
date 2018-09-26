@@ -1,9 +1,9 @@
 \babel@toc {brazil}{}
-\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{4}
-\contentsline {section}{\numberline {2}Processo}{4}
-\contentsline {subsection}{\numberline {2.1}Papeis}{4}
-\contentsline {subsection}{\numberline {2.2}Atividades}{5}
-\contentsline {section}{\numberline {3}Execu\IeC {\c c}\IeC {\~a}o do projeto}{7}
-\contentsline {subsection}{\numberline {3.1}Backlog e sprints}{7}
-\contentsline {subsection}{\numberline {3.2}Estado atual}{7}
-\contentsline {section}{\numberline {4}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{18}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{4}{section.1}
+\contentsline {section}{\numberline {2}Processo}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Papeis}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Atividades}{5}{subsection.2.2}
+\contentsline {section}{\numberline {3}Execu\IeC {\c c}\IeC {\~a}o do projeto}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Backlog e sprints}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Estado atual}{7}{subsection.3.2}
+\contentsline {section}{\numberline {4}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{18}{section.4}
